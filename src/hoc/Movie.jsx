@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import withTooltip from './withTooltip';
-import Tooltip from '../Tooltip';
 
 class Movie extends Component {
   render() {
@@ -8,7 +7,6 @@ class Movie extends Component {
       <div>
         Movie 
         {this.props.showTooltip && <div>Some tooltip</div>}
-        <Tooltip />
       </div>
       
     );
