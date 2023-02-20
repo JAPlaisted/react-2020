@@ -1,12 +1,15 @@
 import "./App.css";
-import Movie from "./hoc/Movie";
 import Counter from "./hooks/Counter";
+import Users from "./hooks/Users";
+import Movie from "./hoc/Movie";
+import "./App.css";
 
 function App() {
   return (
     <div>
-      {/*<Movie />*/}
+      <Movie />
       <Counter />
+      <Users />
     </div>
   );
 }

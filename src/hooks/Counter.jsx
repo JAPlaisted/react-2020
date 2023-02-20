@@ -8,7 +8,7 @@ function Counter(props) {
     useDocumentTitle(`${name} has clicked ${count} times!`);
 
     return (
-        <div>
+        <div className="component">
             <input type="text" onChange={ e => setName(e.target.value) } />
             <div>
                 {name} has clicked {count} times!

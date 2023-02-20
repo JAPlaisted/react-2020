@@ -4,7 +4,7 @@ import withTooltip from './withTooltip';
 class Movie extends Component {
   render() {
     return (
-      <div>
+      <div className="component">
         Movie 
         {this.props.showTooltip && <div>Some tooltip</div>}
       </div>
