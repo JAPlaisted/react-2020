@@ -10,10 +10,8 @@ function Counter(props) {
     return (
         <div className="component">
             <input type="text" onChange={ e => setName(e.target.value) } />
-            <div>
-                {name} has clicked {count} times!
-            </div>
-            <button onClick={() => setCount(count+1)}>Increase</button>
+            <button onClick={() => setCount(count+1)}>+</button>
+            <button onClick={() => setCount(count-1)}>-</button>
         </div>
     );
 }

@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 import withTooltip from './withTooltip';
 
-class Movie extends Component {
+class Tool extends Component {
   render() {
     return (
       <div className="component">
-        Movie 
-        {this.props.showTooltip && <div>Some tooltip</div>}
+        Tool 
+        {this.props.showTooltip && <div> + tooltip</div>}
       </div>
       
     );
   }
 }
 
-export default withTooltip(Movie);
+export default withTooltip(Tool);

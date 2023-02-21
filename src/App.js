@@ -1,13 +1,13 @@
 import "./App.css";
 import Counter from "./hooks/Counter";
 import Users from "./hooks/Users";
-import Movie from "./hoc/Movie";
+import Tool from "./hoc/Tool";
 import "./App.css";
 
 function App() {
   return (
     <div>
-      <Movie />
+      <Tool />
       <Counter />
       <Users />
     </div>
